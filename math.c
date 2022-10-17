@@ -12,3 +12,11 @@ int dobleInt(int a){
 
     return 2*a;
 }
+
+double dobleDouble(double a){
+    if(a > MAXDOUBLE){
+        return -1;
+    }
+
+    return a*2;
+}
