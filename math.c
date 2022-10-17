@@ -3,6 +3,7 @@
 */
 
 #include "math.h"
+#include <stdio.h>
 
 int dobleInt(int a){
     if(a > MAXINT){
